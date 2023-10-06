@@ -45,4 +45,5 @@ p {
     align-content: center;
     height: 300px;
     background-color: none;
+    border-radius: 20px;
 }
