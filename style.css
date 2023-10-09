@@ -73,7 +73,7 @@ p {
     background-image: url('Photo/jm1.jpg'); /* URL de ma 1er tof */
     background-size: cover;
     transition: background-image 0.3s ease; /* transition fluide */
-    background-color: red;
+    
 }
 
 .image:hover {
