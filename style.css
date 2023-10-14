@@ -143,37 +143,58 @@ text-align: center;
 margin: 50px;
 gap: 30px; */
 position: relative;
-width: 500px;
 height: 500px;
 
+}
 
+.display_center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-style: unset;
 }
 .remarque{
   position:absolute;
   top : 50px;
-  left: 195px;
-  background-color: rgb(120, 120, 182);
-  height: 200px;
-  width: 200px;
+  left: 355px;
+  background: linear-gradient(#eb0a2e, #dd7d20, #cadd20);
+  height: 250px;
+  width: 250px;
   border: 5px solid black;
 }
 
 .contact{
     position:absolute;
-    top : 70px;
-    left: 300px;
+    top : 35px;
+    left: 630px;
     border: 5px solid black;
-    background-color: rgb(161, 115, 45);
-    height: 200px;
-    width: 200px;
+    background: linear-gradient(#e0f70a, #58f70a,#0af7af);
+    height: 250px;
+    width: 250px;
 }
     
 .linkedin{
     position: absolute;
-    top: 40px;
-    left: 400px;
+    top: 200px;
+    left: 500px;
     border: 5px solid black;
-    background-color: rgb(43, 163, 79);
-    height: 200px;
-    width: 200px;
+    background: linear-gradient(#0aa4f7, #0a24f7,#7f0af7);
+    height: 250px;
+    width: 250px;
 }
+
+.contact:hover{
+    background: rgb(120, 120, 182);
+}
+
+.remarque:hover{
+    background-color: rgb(120, 120, 182);
+    background: rgb(120, 120, 182);
+    }
+
+    .linkedin:hover{
+        background-color: rgb(120, 120, 182);
+        background: rgb(120, 120, 182);
+    }
