@@ -198,3 +198,14 @@ height: 500px;
         background-color: rgb(120, 120, 182);
         background: rgb(120, 120, 182);
     }
+
+ @media screen and (max-width: 370px)
+ { body{
+
+    display : flex ;
+ }
+    .remarque, .contact, .linkedin,{
+
+        
+    }
+ }
